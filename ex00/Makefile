@@ -1,11 +1,24 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/12/08 18:49:31 by blohrer           #+#    #+#              #
+#    Updated: 2025/12/08 18:56:50 by blohrer          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
 
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 
-NAME = clap
+NAME = animal
 
-SRC =	\
+SRC =	Dog.cpp \
+		Cat.cpp \
+		Animal.cpp \
 		main.cpp
 OBJ = $(SRC:.cpp=.o)
 
