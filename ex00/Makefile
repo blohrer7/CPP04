@@ -6,7 +6,7 @@
 #    By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/08 18:49:31 by blohrer           #+#    #+#              #
-#    Updated: 2025/12/09 07:17:07 by blohrer          ###   ########.fr        #
+#    Updated: 2025/12/09 09:47:28 by blohrer          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,8 @@ NAME = polymorphism
 
 SRC =	Dog.cpp \
 		Cat.cpp \
+		WrongAnimal.cpp \
+		WrongCat.cpp \
 		Animal.cpp \
 		main.cpp
 OBJ = $(SRC:.cpp=.o)

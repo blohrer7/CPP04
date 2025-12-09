@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   WrongWrongAnimal.cpp                                    :+:      :+:    :+:   */
+/*   WrongAnimal.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 07:27:30 by blohrer           #+#    #+#             */
-/*   Updated: 2025/12/09 07:28:55 by blohrer          ###   ########.fr       */
+/*   Updated: 2025/12/09 09:25:29 by blohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,10 @@ WrongAnimal::WrongAnimal()
 }
 
 WrongAnimal::WrongAnimal(const WrongAnimal& other)
-    :   type(other.type){}
+    :   type(other.type)
+{
+    std::cout << "WrongAnimal copied." << std::endl;
+}
 
 
 WrongAnimal::~WrongAnimal()

@@ -6,7 +6,7 @@
 /*   By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/08 18:49:07 by blohrer           #+#    #+#             */
-/*   Updated: 2025/12/08 18:58:32 by blohrer          ###   ########.fr       */
+/*   Updated: 2025/12/09 09:49:01 by blohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ Animal::Animal(const Animal& other)
 
 Animal::~Animal()
 {
-    std::cout << "Animal " << this->type << " disappeared." << std::endl;
+    std::cout << this->type << " disappeared." << std::endl;
 }
 
 Animal& Animal::operator=(const Animal& other)
