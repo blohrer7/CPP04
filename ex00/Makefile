@@ -6,7 +6,7 @@
 #    By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/08 18:49:31 by blohrer           #+#    #+#              #
-#    Updated: 2025/12/08 18:56:50 by blohrer          ###   ########.fr        #
+#    Updated: 2025/12/09 07:17:07 by blohrer          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 
-NAME = animal
+NAME = polymorphism
 
 SRC =	Dog.cpp \
 		Cat.cpp \
