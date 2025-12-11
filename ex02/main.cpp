@@ -6,7 +6,7 @@
 /*   By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/08 18:49:27 by blohrer           #+#    #+#             */
-/*   Updated: 2025/12/09 13:27:12 by blohrer          ###   ########.fr       */
+/*   Updated: 2025/12/11 09:16:27 by blohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int main()
     std::cout << "=== Abstract Class Test ===" << std::endl;
 
     // ❌ Should not compile
-    // AAnimal test;                // error: abstract class
-    // AAnimal* wrong = new AAnimal(); // error: abstract class
+    AAnimal test;                // error: abstract class
+    AAnimal* wrong = new AAnimal(); // error: abstract class
 
     std::cout << "\n=== Polymorphic Allocation ===" << std::endl;
     {

@@ -6,7 +6,7 @@
 /*   By: blohrer <blohrer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 07:27:30 by blohrer           #+#    #+#             */
-/*   Updated: 2025/12/09 09:25:29 by blohrer          ###   ########.fr       */
+/*   Updated: 2025/12/11 08:46:13 by blohrer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ WrongAnimal::WrongAnimal(const WrongAnimal& other)
 
 WrongAnimal::~WrongAnimal()
 {
-    std::cout << "WrongAnimal " << this->type << " disappeared." << std::endl;
+    std::cout << this->type << " disappeared." << std::endl;
 }
 
 WrongAnimal& WrongAnimal::operator=(const WrongAnimal& other)
